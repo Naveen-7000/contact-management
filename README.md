@@ -3,8 +3,10 @@ This a Contact Management Platform along Covid-19 Tracking Dashboard.
 
 # To Run this project follow the below commands step by step : 
 
-# Clone the repo
-# Open terminal and run below command to run the project
+## Clone the repo
+https://github.com/Naveen-7000/contact-management.git
+
+# Open terminal and run the below command to run the project
 
 ## Available Scripts
 
