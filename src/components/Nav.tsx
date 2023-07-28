@@ -5,6 +5,8 @@ interface navProps {
 }
 
 function Nav({ show }: navProps) {
+
+  //  handle inactive and active state of navigation
   const inactiveLink = "flex gap-1 p-2 font-semibold";
   const activeLink = inactiveLink + " bg-slate-200 text-black rounded-lg";
   const inactiveIcon = "w-6 h-6";

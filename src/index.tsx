@@ -9,7 +9,6 @@ import { Provider } from "react-redux";
 import "./index.css";
 import EditContactForm from "./routes/editContactForm";
 import Chart from "./routes/chart";
-import CountryMap from "./components/CountryMap";
 
 const router = createBrowserRouter([
   {

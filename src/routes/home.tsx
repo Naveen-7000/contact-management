@@ -13,6 +13,7 @@ const Home:React.FC<Props>=({title})=>{
     <div className="flex flex-col gap-2">
       <div className="flex justify-between items-center flex-row">
         <h1 className=" font-bold text-2xl ">{title}</h1>
+        {/* navigate to add contact page */}
         <Link
         to={"/contact/add"}
         className="btn bg-white px-4 py-1 border-2 border-black rounded-lg font-semibold capitalize flex gap-1 items-center hover:bg-slate-100 transition-all">
@@ -33,6 +34,7 @@ const Home:React.FC<Props>=({title})=>{
           </svg>{" "}
         </Link>
       </div>
+      {/* handle contact cards */}
       <div className=" p-4 rounded-lg w-full flex justify-center items-center gap-1 flex-col">
         {
           contacts.length > 0 ?

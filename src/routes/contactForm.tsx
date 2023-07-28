@@ -27,6 +27,7 @@ const ContactForm: React.FC<Props> = ({ title, contact }) => {
     setValue,
   } = useForm<inputs>();
 
+  // handle edit and add functionality with same component
   useEffect(() => {
     if (contact) {
       const { name, email, contactNumber, address } = contact;
@@ -39,6 +40,7 @@ const ContactForm: React.FC<Props> = ({ title, contact }) => {
 
   const dispatch = useDispatch();
 
+  // handle edit and add contact form submission
   const onSubmit: SubmitHandler<inputs> = (data) => {
     const updatedContact = { ...data, id: contact ? contact.id : uuidv4() };
     if (contact) {

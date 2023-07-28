@@ -7,11 +7,11 @@ import LineChart from "../components/LineGraph";
 import { useState } from "react";
 
 function Chart() {
-  const { isLoading, data: worldData, error } = useQuery("world", getWorldWide);
+  const { data: worldData } = useQuery("world", getWorldWide);
   const [showMap, setShowMap] = useState(true);
 
+  //  handle switch between map and graph
   const handleSwitch = ()=>{
-    //  act like a switch
     setShowMap((prev) => !prev);
   }
   return (

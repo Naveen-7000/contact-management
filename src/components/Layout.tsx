@@ -4,6 +4,7 @@ interface layoutProps {
   children: React.ReactNode;
 }
 
+// Seting up a Layout to add sidebar and navigation
 function Layout({ children }: layoutProps) {
   const [showNav, setShowNav] = useState(false);
   return (

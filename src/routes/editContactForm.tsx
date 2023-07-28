@@ -4,6 +4,7 @@ import { RootState } from "../redux/store";
 import ContactForm from "./contactForm";
 const EditContactForm = () => {
   const { id } = useParams();
+  // get the contact infor by the id
   const contact = useSelector((state: RootState) =>
     state.contacts.contacts.find((c) => c.id === id)
   );
