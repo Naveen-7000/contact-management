@@ -6,7 +6,7 @@ This a Contact Management Platform along Covid-19 Tracking Dashboard.
 ## Clone the repo
 https://github.com/Naveen-7000/contact-management.git
 
-# Open terminal and run the below command to run the project
+# Open the terminal and run the below command to run the project
 
 ## Available Scripts
 
@@ -28,4 +28,22 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-### `
+# Technology Used
+
+# Libraries : 
+
+### `Typescript and TailwindCSS - For Styling and Type checking`
+### `React-Router - For Handling routing`
+### `Chart.js - For Line Chart`
+### `React leaflet - For Map`
+### `React-Query or TanStack - For fetching data from APIs `
+### `Redux-toolkit - For state management specific for storing contacts state`
+
+# APIs
+This project uses a few APIs to get Covid-19 related Data, here are the APIs ->
+### `https://disease.sh/v3/covid-19/all - This returns worldwide cases`
+### `https://disease.sh/v3/covid-19/countries - This returns country-specific data like India, USA, etc.`
+### `https://disease.sh/v3/covid-19/countries - This endpoint returns all the data require for Line Chart and Map`
+
+
+
